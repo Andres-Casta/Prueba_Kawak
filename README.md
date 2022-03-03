@@ -9,6 +9,13 @@ User: kawak@outlook.com
 Pss: kawak
 
 
+en caso de generar error 
+Fatal error: You must enable the intl extension to use CakePHP.
+
+Se debe validar el siguiente video para ajustar la configuración.
+https://www.youtube.com/watch?v=uedDFxnvjzU
+
+
 # CakePHP Application Skeleton
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
