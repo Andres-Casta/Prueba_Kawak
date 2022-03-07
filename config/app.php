@@ -308,7 +308,18 @@ return [
             'flags' => [],
             'cacheMetadata' => true,
             'log' => false,
+            'host' => 'localhost',
+            /*
+             * CakePHP will use the default DB port based on the driver selected
+             * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
+             * the following line and set the port accordingly
+             */
+            //'port' => 'non_standard_port_number',
 
+            'username' => 'root',
+            'password' => '',
+
+            'database' => 'prueba_kawak',
             /*
              * Set identifier quoting to true if you are using reserved words or
              * special characters in your table or column names. Enabling this
